@@ -22,17 +22,17 @@ Ensure you have the following installed in your environment:
 
 **How to Build, Test, and Run**
 
-**Clone the Repository:** git clone [https://github.com/suga-25/naan-maven-demo.git](https://github.com/suga-25/naan-maven-demo.git)
+1. **Clone the Repository:** git clone [https://github.com/suga-25/naan-maven-demo.git](https://github.com/suga-25/naan-maven-demo.git)
 cd naan-maven-demo
 
-**Run Unit Tests:**
+2. **Run Unit Tests:**
 mvn clean test
 
-**Package the Application into a JAR:**
+3. **Package the Application into a JAR:**
 mvn clean package
 
-**Execute the Compiled Application:**
+4. **Execute the Compiled Application:**
 java -cp target/naan-maven-demo-1.0-SNAPSHOT.jar com.example.App
 
 **Author**
-Name:https://github.com/suga-25
+Name: https://github.com/suga-25
